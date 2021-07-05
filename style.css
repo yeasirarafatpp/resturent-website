@@ -85,7 +85,7 @@ body{
 }
 .statics{
     display: flex;
-    justify-content: space-around; */
+    justify-content: space-around;
     height: 200px;
     margin:100px;
     box-shadow: 10px 10px 30px black;
@@ -95,4 +95,47 @@ body{
     width: 33%;
     text-align: center;
     margin-top: 50px;
+}
+.app-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    background-color: chocolate;
+}
+.app-btn a{
+    text-decoration: none;
+}
+.app-btn h2{
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+.btn-o{
+    color: white;
+    background-color: tomato;
+    border: 5px solid tomato;
+    padding: 10px 30px;
+    margin-right: 15px;
+    border-radius: 10px;
+    font-weight: 400;
+}
+.btn-o:hover{
+    color: cornflowerblue;
+    background-color: chocolate;
+}
+.btn-t{
+    background-color: navy ;
+    color: cornflowerblue;
+    border: 5px solid navy;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 400;
+}
+.btn-t:hover{
+    background-color: chocolate;
+
 }
