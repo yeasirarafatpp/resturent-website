@@ -49,3 +49,37 @@ body{
     padding-left: 15%;
     margin-top: 100px;
 }
+.center-head{
+    text-align: center;
+    margin-top: 100px;
+}
+.recipie h2{
+    font-size: 32px;
+    font-weight: 800;
+}
+.recipie p{
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+.grid-food{
+    display: flex;
+    /* justify-content: space-around; */
+    padding-left: 5%;
+}
+.food img{
+    width: 100%;
+}
+.food p{
+    width: 100%;
+}
+.food{
+    box-shadow: 10px 10px 30px black;
+    width: 33%;
+    padding: 15px;
+    margin: 0 25px 0 35px;
+    border-radius: 15px;
+}
+.food h3{
+    font-size: 28px;
+    font-weight: bolder;
+}
