@@ -15,6 +15,7 @@ body{
 .half-width h1{
     font-size: 60px;
     font-weight: bold;
+    color: #575757;
 }
 .half-width h2{
     font-size: 40px;
@@ -56,6 +57,7 @@ body{
 .recipie h2{
     font-size: 32px;
     font-weight: 800;
+    color: #575757;
 }
 .recipie p{
     padding: 0 250px;
@@ -86,8 +88,8 @@ body{
 .statics{
     display: flex;
     justify-content: space-around;
-    height: 200px;
-    margin:100px;
+    height: 260px;
+    margin:80px;
     box-shadow: 10px 10px 30px black;
     border-radius: 15px;
 }
@@ -95,6 +97,10 @@ body{
     width: 33%;
     text-align: center;
     margin-top: 50px;
+}
+.score h2{
+    font-size: 48px;
+    font-weight: bold;
 }
 .app-btn{
     display: flex;
@@ -138,4 +144,40 @@ body{
 .btn-t:hover{
     background-color: chocolate;
 
+}
+.testo{
+    display: flex;
+    margin: 0 0 100px 0;
+}
+.testo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+.testo small{
+    display: block;
+}
+.testo h1{
+    text-align: center;
+    font-size: 45px;
+}
+.head{
+    margin: 100px 0 0 0;
+    text-align: center;
+    font-size: 30px;
+}
+.footer-text{
+    text-align: center;
+    height: 200px;
+    background-color: #0B0D17;
+    color: white;
+    padding-top: 45px;
+}
+footer h2{
+    font-size: 30px;
+    color: #5B5B5B;
+}
+.foot{
+    color: crimson;
 }
